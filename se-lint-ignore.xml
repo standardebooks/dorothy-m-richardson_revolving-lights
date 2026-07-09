@@ -14,4 +14,10 @@
 			<reason>Multi-paragraph dialog</reason>
 		</ignore>
 	</file>
+	<file path="chapter-4.xhtml">
+		<ignore code="y-022">
+			<line>37</line>
+			<reason>Author's choice to have two quotations in a single 'graph</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
