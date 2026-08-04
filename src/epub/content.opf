@@ -39,14 +39,16 @@
 		<dc:subject id="subject-3">England -- Social life and customs -- 20th century -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008114942</meta>
-		<meta property="schema:genre">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="schema:genre">Fiction</meta>
+		<dc:description id="description">An independent woman and budding writer living in London at the dawn of the twentieth century ends a relationship with a Russian expatriate and visits her mentor and his wife at their country home.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Revolving Lights&lt;/i&gt; is the seventh “chapter volume” of &lt;a href="https://standardebooks.org/ebooks/dorothy-m-richardson"&gt;Dorothy M. Richardson’s&lt;/a&gt; pioneering semi-autobiographical series, &lt;a href="https://standardebooks.org/collections/pilgrimage"&gt;Pilgrimage&lt;/a&gt;.&lt;/p&gt;
+			&lt;p&gt;Series protagonist Miriam Henderson puts an end to her relationship with co-lodger Michael Shatov, a young Russian intellectual. She spends two weeks visiting the mansion of author Hypo Wilson and his wife Alma (Miriam's old schoolmate). While there she meets author Miss Prout, another friend of Hypo’s.&lt;/p&gt;
+			&lt;p&gt;The Wilsons are generally understood to be proxies for H. G. Wells and Amy Catherine Robbins Wells. Miss Prout is thought to be based on Violet Hunt.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/62967</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://archive.org/details/revolvinglights0000doro</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
 		<link href="EBOOK_WIKI_URL" rel="schema:sameAs"/>
@@ -55,30 +57,27 @@
 		<link href="https://github.com/standardebooks/dorothy-m-richardson_revolving-lights" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Dorothy M. Richardson</dc:creator>
 		<meta property="file-as" refines="#author">Richardson, Dorothy M.</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="schema:alternateName" refines="#author">Dorothy Miller Richardson</meta>
 		<link href="https://en.wikipedia.org/wiki/Dorothy_M._Richardson" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50051627.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
+		<dc:contributor id="artist">Philip Norman</dc:contributor>
+		<meta property="file-as" refines="#artist">Norman, Philip</meta>
+		<link href="https://en.wikipedia.org/wiki/Philip_Norman_(artist)" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n87821929.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
+		<dc:contributor id="transcriber-1">Jens Sadowski</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Sadowski, Jens</meta>
 		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<link href="TRANSCRIBER_2_URL" refines="#transcriber-2" rel="schema:url"/>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
 		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
+		<dc:contributor id="producer-1">Ray Ryan</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Ryan, Ray</meta>
+		<meta property="se:url.homepage" refines="#producer-1">http://rjrjr.com/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
