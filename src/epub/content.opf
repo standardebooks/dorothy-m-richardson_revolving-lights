@@ -40,11 +40,14 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008114942</meta>
 		<meta property="schema:genre">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Pilgrimage</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta property="group-position" refines="#collection-1">7</meta>
 		<dc:description id="description">An independent woman and budding writer living in London at the dawn of the twentieth century ends a relationship with a Russian expatriate and visits her mentor and his wife at their country home.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Revolving Lights&lt;/i&gt; is the seventh “chapter volume” of &lt;a href="https://standardebooks.org/ebooks/dorothy-m-richardson"&gt;Dorothy M. Richardson’s&lt;/a&gt; pioneering semi-autobiographical series, &lt;a href="https://standardebooks.org/collections/pilgrimage"&gt;Pilgrimage&lt;/a&gt;.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Revolving Lights&lt;/i&gt; is the seventh “chapter volume” of &lt;a href="https://standardebooks.org/ebooks/dorothy-m-richardson"&gt;Dorothy &lt;abbr&gt;M.&lt;/abbr&gt; Richardson’s&lt;/a&gt; pioneering semi-autobiographical series, &lt;a href="https://standardebooks.org/collections/pilgrimage"&gt;Pilgrimage&lt;/a&gt;.&lt;/p&gt;
 			&lt;p&gt;Series protagonist Miriam Henderson puts an end to her relationship with co-lodger Michael Shatov, a young Russian intellectual. She spends two weeks visiting the mansion of author Hypo Wilson and his wife Alma (Miriam’s old schoolmate). While there she meets author Miss Prout, another friend of Hypo’s.&lt;/p&gt;
-			&lt;p&gt;The Wilsons are generally understood to be proxies for H. G. Wells and Amy Catherine Robbins Wells. Miss Prout is thought to be based on Violet Hunt.&lt;/p&gt;
+			&lt;p&gt;The Wilsons are generally understood to be proxies for &lt;a href="https://standardebooks.org/ebooks/h-g-wells"&gt;&lt;abbr&gt;H. G.&lt;/abbr&gt; Wells&lt;/a&gt; and Amy Catherine Robbins Wells. Miss Prout is thought to be based on Violet Hunt.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/62967</dc:source>
