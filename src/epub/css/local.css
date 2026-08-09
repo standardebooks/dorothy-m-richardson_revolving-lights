@@ -20,6 +20,7 @@
 
 /* Centered dedications */
 section[epub|type~="dedication"]{
+	font-variant: small-caps;
 	text-align: center;
 }
 
