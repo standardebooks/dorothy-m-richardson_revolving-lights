@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/dorothy-m-richardson/revolving-lights</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
@@ -43,12 +43,12 @@
 		<meta id="collection-1" property="belongs-to-collection">Pilgrimage</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="group-position" refines="#collection-1">7</meta>
-		<dc:description id="description">An independent woman and budding writer living in London at the dawn of the twentieth century ends a relationship with a Russian expatriate and visits her mentor and his wife at their country home.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<meta property="schema:abstract">An independent woman and budding writer living in London at the dawn of the twentieth century ends a relationship with a Russian expatriate and visits her mentor and his wife at their country home.</meta>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;Revolving Lights&lt;/i&gt; is the seventh “chapter volume” of &lt;a href="https://standardebooks.org/ebooks/dorothy-m-richardson"&gt;Dorothy &lt;abbr&gt;M.&lt;/abbr&gt; Richardson’s&lt;/a&gt; pioneering semi-autobiographical series, &lt;a href="https://standardebooks.org/collections/pilgrimage"&gt;Pilgrimage&lt;/a&gt;.&lt;/p&gt;
 			&lt;p&gt;Series protagonist Miriam Henderson puts an end to her relationship with co-lodger Michael Shatov, a young Russian intellectual. She spends two weeks visiting the mansion of author Hypo Wilson and his wife Alma (Miriam’s old schoolmate). While there she meets author Miss Prout, another friend of Hypo’s.&lt;/p&gt;
 			&lt;p&gt;The Wilsons are generally understood to be proxies for &lt;a href="https://standardebooks.org/ebooks/h-g-wells"&gt;&lt;abbr&gt;H. G.&lt;/abbr&gt; Wells&lt;/a&gt; and Amy Catherine Robbins Wells. Miss Prout is thought to be based on Violet Hunt.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/62967</dc:source>
 		<dc:source>https://archive.org/details/revolvinglights0000doro</dc:source>
@@ -80,7 +80,7 @@
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Ray Ryan</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Ryan, Ray</meta>
-		<meta property="se:url.homepage" refines="#producer-1">http://rjrjr.com/</meta>
+		<link href="http://rjrjr.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
